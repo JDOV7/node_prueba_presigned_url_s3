@@ -1,5 +1,22 @@
 /**
  * Programa para crear una url preasignada para la subida de archivos
+ * 
+ * CONFIGURACION CORS BUCKET:
+ * [
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "PUT"
+        ],
+        "AllowedOrigins": [
+            "http://localhost:5173"
+        ],
+        "ExposeHeaders": []
+    }
+]
+ * 
  *
  * **/
 
